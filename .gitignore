@@ -8,8 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+public/ffmpeg
+public/ffmpeg-mt
 dist
 dist-ssr
+build
+.react-router
 *.local
 
 # Editor directories and files
