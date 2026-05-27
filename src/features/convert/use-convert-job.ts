@@ -226,6 +226,7 @@ export function useConvertJob(initialRecipeId?: string) {
 
     try {
       trace("convert: click");
+      umami.track("convert:start");
 
       if (!loadVariant) {
         await ensureFfmpeg();
@@ -256,6 +257,7 @@ export function useConvertJob(initialRecipeId?: string) {
       setResultUrl(result.objectUrl);
       setResultFileName(result.outputFileName);
       trace("status → done");
+      umami.track("convert:done");
       setStatus("done");
     } catch (err) {
       if (err instanceof DOMException && err.name === "AbortError") {

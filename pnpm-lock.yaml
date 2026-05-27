@@ -84,6 +84,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.14)
+      '@types/umami':
+        specifier: ^2.10.1
+        version: 2.10.1
       globals:
         specifier: ^16.5.0
         version: 16.5.0
@@ -1751,6 +1754,9 @@ packages:
 
   '@types/statuses@2.0.6':
     resolution: {integrity: sha512-xMAgYwceFhRA2zY+XbEA7mxYbA093wdiW8Vu6gZPGWy9cmOyU9XesH1tNcEWsKFd5Vzrqx5T3D38PWx1FIIXkA==}
+
+  '@types/umami@2.10.1':
+    resolution: {integrity: sha512-CvOEMq+BFOUXj8yciq4hPsdOt0o9KBg5jQXnF1FrdOMKZMxJiwryyZNLa9Ud2NVO6nXSwU22YMKR3E+Xhbo+DA==}
 
   '@types/validate-npm-package-name@4.0.2':
     resolution: {integrity: sha512-lrpDziQipxCEeK5kWxvljWYhUvOiB2A9izZd9B2AFarYAkqZshb4lPbRs7zKEic6eGtH8V/2qJW+dPp9OtF6bw==}
@@ -4780,6 +4786,8 @@ snapshots:
       '@types/node': 24.12.4
 
   '@types/statuses@2.0.6': {}
+
+  '@types/umami@2.10.1': {}
 
   '@types/validate-npm-package-name@4.0.2': {}
 
